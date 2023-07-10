@@ -1,0 +1,17 @@
+# pack-refs with: peeled fully-peeled sorted 
+41f5c1553e5fe8d3eaf51c9afc6ced9f26f288e9 refs/remotes/origin/create-terminal
+7f94148c698b483252fd2c8dd5bcc1c1412fff0b refs/remotes/origin/data-breakpoints
+3bde6f786057fa29d8356559b2ae3a52d9317fba refs/remotes/origin/master
+6b03339bf47fa7dc9e8b00d44897a47b303eebcf refs/remotes/origin/session-signs
+e9af9d87f4c4012947e5754420f023d40792bcc2 refs/tags/0.1.0
+^c0f43f43b3093c9716b338925b50c8c36eb72f24
+1c76176128c4451135274bb047beaa59253d8d72 refs/tags/0.2.0
+^66d33b7585b42b7eac20559f1551524287ded353
+58bbc14562b8498dd7e2a347bf4cb99b1649aaf5 refs/tags/0.3.0
+^764899df5ca39076acb08a447f7e5bd0b4fa3147
+7d4657f7959013bb2c36886a556e2c50f5ed64c6 refs/tags/0.4.0
+^700a3c7d6fbe5b07bee74e9952b456120d355c47
+101d375f2b494d713a0dd005bcb2f5ad34ef55c3 refs/tags/0.5.0
+^e8dd631ee4cbb0a5b68b51106d9cc73a4f3fb81d
+b5f09816c9dd394f6ea1dcaa57d6f10e1c85f11b refs/tags/0.6.0
+^debd7c2f80eaf20c5f5df25db8d8c1b9b18f4421

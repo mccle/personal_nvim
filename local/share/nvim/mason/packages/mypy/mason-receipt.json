@@ -1,0 +1,1 @@
+{"metrics":{"completion_time":1688945470695,"start_time":1688945362785},"name":"mypy","secondary_sources":[],"schema_version":"1.1","links":{"opt":{},"share":{},"bin":{"mypy":"venv\/bin\/mypy"}},"primary_source":{"id":"pkg:pypi\/mypy@1.4.1","type":"registry+v1","source":{"package":"mypy","version":"1.4.1","pip":{"upgrade":false,"extra_args":[]}}}}

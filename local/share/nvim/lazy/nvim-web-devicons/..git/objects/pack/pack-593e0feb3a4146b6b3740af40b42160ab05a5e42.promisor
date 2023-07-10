@@ -1,0 +1,13 @@
+9ab9b0b894b2388a9dbcdee5f00ce72e25d85bf9 HEAD
+b517ac4c77ba2042343881f9af895dea5a2ccaae refs/heads/add-setup-check
+c910dd7c1ff004e6352caff2abbedfcf8ea3bcdb refs/heads/add-user-config
+bc7c42299c800f89ae91e66d8d6ba4ae9a10ac8e refs/heads/branch-to-test-ci
+eebc16bca2b3cce855b0f69bf5a65972266d8508 refs/heads/dummy-test-238
+809f86c89b42277f13dc3bfca3829b31ded8990c refs/heads/dummy-test-238-bad-style
+e5ec732956c0177a5472a78cf5ca691b974fedc9 refs/heads/enable-modifying-default
+10a0a548c3c7ffdb37707ec5d3dca55040be5aae refs/heads/fix/neovim-0.4
+9ab9b0b894b2388a9dbcdee5f00ce72e25d85bf9 refs/heads/master
+df86424f6e4bb3dbd2c96bae08e989841ca15dfc refs/heads/refacto/disable-default-icon-and-provide-default-icon
+e7826e3240fc8bc206d322b8b8fed5c5629bde00 refs/heads/testing-invalid-pr-commit
+4ceb3b5ff89b97896dcc699fc61b5ae0c7511a93 refs/heads/testing-lighttheme
+b34362b20a4942b3245f958e73ebe1b09b020ad1 refs/tags/nerd-v2-compat
