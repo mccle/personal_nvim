@@ -3,6 +3,4 @@
 	url = https://github.com/neovim/neovim.git
 [submodule "NvChad"]
 	path = NvChad
-	url = https://github.com/NvChad/NvChad
-[submodule "NvChad/"]
 	url = git@github.com:mccle/NvChad.git
