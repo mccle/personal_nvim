@@ -27,10 +27,10 @@ if line_in_file "export PATH=${INSTALL_PREFIX}/bin:\${PATH}" ~/.bashrc; then
 elif line_in_file "export PATH=${INSTALL_PREFIX}/bin:\${PATH}" ~/.zshrc; then
     echo "nvim is already added to your path"
 else
-    if [ -n ${BASH_VERSION} ]; then
+    if [ -f ~/.bashrc ]; then
         echo "export PATH=${INSTALL_PREFIX}/bin:\${PATH}" >> ~/.bashrc
         echo "Added nvim to your path"
-    elif [ -n ${ZSH_VERSION} ]; then
+    elif [ -f ~/.zshrc ]; then
 	echo "export PATH=${INSTALL_PREFIX}/bin:\${PATH}" >> ~/.zshrc
         echo "Added nvim to your path"
     else
