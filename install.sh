@@ -22,16 +22,16 @@ line_in_file() {
     fi
 }
 
-if line_in_file "export PATH=${INSTALL_PREFIX}/bin:\${PATH}" ~/.bash_profile; then
+if line_in_file "export PATH=${INSTALL_PREFIX}/bin:\${PATH}" ~/.bashrc; then
     echo "nvim is already added to your path"
-elif line_in_file "export PATH=${INSTALL_PREFIX}/bin:\${PATH}" ~/.zsh_profile; then
+elif line_in_file "export PATH=${INSTALL_PREFIX}/bin:\${PATH}" ~/.zshrc; then
     echo "nvim is already added to your path"
 else
     if [ -f ~/.bashrc ]; then
-        echo "export PATH=${INSTALL_PREFIX}/bin:\${PATH}" >> ~/.bash_profile
+        echo "export PATH=${INSTALL_PREFIX}/bin:\${PATH}" >> ~/.bashrc
         echo "Added nvim to your path"
     elif [ -f ~/.zshrc ]; then
-	echo "export PATH=${INSTALL_PREFIX}/bin:\${PATH}" >> ~/.zsh_profile
+	echo "export PATH=${INSTALL_PREFIX}/bin:\${PATH}" >> ~/.zshrc
         echo "Added nvim to your path"
     else
 	echo "Shell not supported. Add ${INSTALL_PREFIX}/bin to your path manually"
