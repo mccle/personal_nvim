@@ -40,8 +40,23 @@ fi
 
 if [ -L ~/.config/nvim ]; then
     unlink ~/.config/nvim
+    # ln -s ${REPO_ROOT}/NvChad ~/.config/nvim
+fi
+
+if [ -L ~/.local/state/nvim ]; then
+    unlink ~/.local/state/nvim
+fi
+
+if [ -L ~/.local/share/nvim ]; then
+    unlink ~/.local/share/nvim
 fi
 
 ln -s ${REPO_ROOT}/NvChad ~/.config/nvim
 
-echo "Symlink updated"
+mkdir -p ${REPO_ROOT}/state
+ln -s ${REPO_ROOT}/state ~/.local/state/nvim
+
+mkdir -p ${REPO_ROOT}/share
+ln -s ${REPO_ROOT}/share ~/.local/share/nvim
+
+echo "Symlinks updated"
