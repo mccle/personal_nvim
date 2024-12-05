@@ -1,7 +1,6 @@
 [submodule "neovim"]
 	path = neovim
 	url = git@github.com:neovim/neovim.git
-	commit = 996dd36c77321ea91758b5996d152a2f37af99dd
 [submodule "NvChad"]
 	path = NvChad
 	url = git@github.com:mccle/NvChad.git
